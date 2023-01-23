@@ -88,7 +88,7 @@
     list-style: none;
     margin-bottom: 0px;
     padding-bottom: 0;
-    flex-wrap: wrap;
+    padding-left: 0;
 }
 .footer-menu ul li{
     
@@ -96,4 +96,24 @@
 .footer-menu ul li a{
     text-decoration: none;
     color: #fff;
+}
+
+
+/* Responsive CSS */
+@media screen and (max-width: 1198px){
+    element.style {
+        gap: 0px;
+    }
+    img.w-100.rounded-1 {
+        margin-bottom: 30px;
+    }
+    .col-lg-3 {
+        order: -1;
+    }
+}
+@media screen and (max-width: 768px){
+    p.mb-0.text-white.text-end {
+        display: flex;
+        justify-content: center;
+    }
 }
